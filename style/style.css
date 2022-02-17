@@ -5,11 +5,8 @@
 }
 
 body {
-    background-color: black;
-}
-
-h1 {
-    color: white;
+background: url(../images/pexels-max-deroin-g.jpg) no-repeat;
+background-position: center;
 }
 
 .registration-form {
@@ -17,11 +14,47 @@ h1 {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 350px;
+    width: 400px;
 }
 
 .registration-form h1 {
+    color: white;
     font-size: 40px;
     text-align: center;
     text-transform: uppercase;
+    margin: 40px 0; 
+    box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.288);
+}
+
+.registration-form p {
+    color: white;
+    font-size: 20px;
+    margin: 15px 0;
+    box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.288);
+}
+
+.registration-form input {
+    font-size: 16px;
+    padding: 15px 10px;
+    width: 300px;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+.registration-form button {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 7px;
+    box-shadow: 3px 5px 4px rgba(0, 0, 0, 0.288);
+    background-color: #fff;
+}
+
+.registration-form button:hover {
+    color: aliceblue;
+    background-color: rgba(168, 43, 43, 0.774);
 }
